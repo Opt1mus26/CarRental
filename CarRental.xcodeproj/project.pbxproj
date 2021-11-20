@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAACDA0D2742E86600B55C3F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACDA0C2742E86600B55C3F /* DataManager.swift */; };
+		EAACDA0F2742E87800B55C3F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACDA0E2742E87700B55C3F /* Model.swift */; };
+		EAACDA112742FC6D00B55C3F /* CarsLIstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACDA102742FC6D00B55C3F /* CarsLIstViewController.swift */; };
+		EAC64E132746C9E000BBF772 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC64E122746C9E000BBF772 /* FirstViewController.swift */; };
+		EADD5CDA2743E442007B48C0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADD5CD92743E442007B48C0 /* DetailViewController.swift */; };
 		EFAC4CCF274189890068B3D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC4CCE274189890068B3D9 /* AppDelegate.swift */; };
 		EFAC4CD1274189890068B3D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC4CD0274189890068B3D9 /* SceneDelegate.swift */; };
-		EFAC4CD3274189890068B3D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC4CD2274189890068B3D9 /* ViewController.swift */; };
 		EFAC4CD6274189890068B3D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAC4CD4274189890068B3D9 /* Main.storyboard */; };
 		EFAC4CD82741898A0068B3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAC4CD72741898A0068B3D9 /* Assets.xcassets */; };
 		EFAC4CDB2741898A0068B3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAC4CD92741898A0068B3D9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EAACDA0C2742E86600B55C3F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		EAACDA0E2742E87700B55C3F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EAACDA102742FC6D00B55C3F /* CarsLIstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsLIstViewController.swift; sourceTree = "<group>"; };
+		EAC64E122746C9E000BBF772 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EADD5CD92743E442007B48C0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		EFAC4CCB274189890068B3D9 /* CarRental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAC4CCE274189890068B3D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFAC4CD0274189890068B3D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFAC4CD2274189890068B3D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EFAC4CD5274189890068B3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFAC4CD72741898A0068B3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFAC4CDA2741898A0068B3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,10 +66,14 @@
 			children = (
 				EFAC4CCE274189890068B3D9 /* AppDelegate.swift */,
 				EFAC4CD0274189890068B3D9 /* SceneDelegate.swift */,
-				EFAC4CD2274189890068B3D9 /* ViewController.swift */,
+				EAACDA0C2742E86600B55C3F /* DataManager.swift */,
+				EAACDA0E2742E87700B55C3F /* Model.swift */,
 				EFAC4CD4274189890068B3D9 /* Main.storyboard */,
-				EFAC4CD72741898A0068B3D9 /* Assets.xcassets */,
+				EAC64E122746C9E000BBF772 /* FirstViewController.swift */,
+				EAACDA102742FC6D00B55C3F /* CarsLIstViewController.swift */,
+				EADD5CD92743E442007B48C0 /* DetailViewController.swift */,
 				EFAC4CD92741898A0068B3D9 /* LaunchScreen.storyboard */,
+				EFAC4CD72741898A0068B3D9 /* Assets.xcassets */,
 				EFAC4CDC2741898A0068B3D9 /* Info.plist */,
 			);
 			path = CarRental;
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFAC4CD3274189890068B3D9 /* ViewController.swift in Sources */,
 				EFAC4CCF274189890068B3D9 /* AppDelegate.swift in Sources */,
+				EAACDA0D2742E86600B55C3F /* DataManager.swift in Sources */,
 				EFAC4CD1274189890068B3D9 /* SceneDelegate.swift in Sources */,
+				EADD5CDA2743E442007B48C0 /* DetailViewController.swift in Sources */,
+				EAACDA0F2742E87800B55C3F /* Model.swift in Sources */,
+				EAACDA112742FC6D00B55C3F /* CarsLIstViewController.swift in Sources */,
+				EAC64E132746C9E000BBF772 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +303,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 24LMK5CXTP;
+				DEVELOPMENT_TEAM = 2V3Q6RCHJL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarRental/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -304,6 +321,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = swift.CarRental;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,9 +333,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 24LMK5CXTP;
+				DEVELOPMENT_TEAM = 2V3Q6RCHJL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarRental/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -332,6 +351,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = swift.CarRental;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
