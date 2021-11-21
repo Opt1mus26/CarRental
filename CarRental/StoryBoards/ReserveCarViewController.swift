@@ -18,15 +18,20 @@ class ReserveCarViewController: UIViewController {
     @IBOutlet var reserveDateFrom: UITextField!
     @IBOutlet var reserveDateBefore: UITextField!
     @IBOutlet var bottomConstraint: NSLayoutConstraint!
+    @IBOutlet var buyButtin: UIButton!
     
     let datePicker = UIDatePicker()
+    
     private var login = Login(name: "", lastName: "", dateFrom: "", dateBefore: "")
-    //    var car: Car!
+    
+//    var car: Car!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //        carImage.image = UIimage(car.image)
-        //        carImage.text = String(car.model)
+//        carImage.image = UIImage(named: car.car)
+//        carModel.text = String(car.car)
+        
         nameTF.text = String(login.name)
         lastNameTF.text = String(login.lastName)
         reserveDateFrom.text = String(login.dateFrom)
@@ -81,7 +86,6 @@ class ReserveCarViewController: UIViewController {
             UIView.animate(withDuration: 0.5, animations: {
                 self.bottomConstraint.constant = height - 240
                 self.view.layoutIfNeeded()
-                
             })
         }
     }
@@ -111,12 +115,6 @@ class ReserveCarViewController: UIViewController {
     }
     
     @IBAction func reserveCar() {
-        
-        view.endEditing(true)
-        
-        nameTF.resignFirstResponder()
-        lastNameTF.resignFirstResponder()
-        
         guard let lastName = lastNameTF.text, !lastName.isEmpty,
               let name = nameTF.text, !name.isEmpty else {
                   showAlert(
@@ -136,7 +134,7 @@ class ReserveCarViewController: UIViewController {
             showAlert(
                 title: "Неверный формат",
                 message: "Пожалуйста, введите Фамилию, Имя и Отчетство буквами",
-                textField: lastNameTF)
+                textField: nameTF)
             nameTF.text = nil
         }
         return
@@ -148,29 +146,6 @@ class ReserveCarViewController: UIViewController {
     }
     @IBAction func unwind(for segue: UIStoryboardSegue) {
     }
-    
-    //    //MARK: - ScrollKeyboard
-    //    deinit {
-    //        removeKeyboardNotifications()
-    //    }
-    //
-    //    func registerForKeyboardNotifications() {
-    //        NotificationCenter.default.addObserver(self, selector: #selector(kbWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
-    //        NotificationCenter.default.addObserver(self, selector: #selector(kbWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
-    //    }
-    //    func removeKeyboardNotifications() {
-    //        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
-    //        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
-    //    }
-    //
-    //    @objc func kbWillShow(_ notification: Notification) {
-    //        let userInfo = notification.userInfo
-    //        let kbFrameSize = (userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue
-    //        scrollView.contentOffset = CGPoint(x: 0, y: kbFrameSize?.height ?? 200)
-    //    }
-    //    @objc func kbWillHide(_ notification: Notification) {
-    //        scrollView.contentOffset = CGPoint.zero
-    //    }
 }
 
 extension ReserveCarViewController {

@@ -19,19 +19,21 @@ class AboutUsViewController: UIViewController {
     @IBOutlet var phoneLabel: UILabel!
     
     var login: Login!
-//    var car: Car!
+  private var personOne = AboutUs(name: "Pavel", lastName: "Tsyganov", address: "Nizhniy Novgorod, st.Preobrazhenskaya, 10", email: "opt1mus26@icloud.com", phone: "+79101446015")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         fullNameTF.text = "Мы ждем Вас \(login.fullname)"
         aboutUsImage.layer.cornerRadius = aboutUsImage.frame.size.width / 2
         anotherAboutUsImage.layer.cornerRadius = anotherAboutUsImage.frame.size.width / 2
-//        aboutUsImage.image = UIImage(car.image)
-//        anotherAboutUsImage.image = UIImage(car.anotherImage)
-//        aboutUsLabel.text = String(car.aboutUsPerson)
-//        anotherAboutUsLabel.text = String(car.anotherAboutUsPerson)
-//        addressLabel.text = String(car.address)
-//        emailLabel.text = String(car.email)
-//        phoneLabel.text = String(car.phone)
+        aboutUsImage.image = UIImage(named: personOne.fullName)
+        anotherAboutUsImage.image = UIImage(named: "Alisa Tsyganova")
+        aboutUsLabel.text = String(personOne.fullName)
+        anotherAboutUsLabel.text = String("Alisa Tsyganova")
+        addressLabel.text = String(personOne.address)
+        emailLabel.text = String(personOne.email)
+        phoneLabel.text = String(personOne.phone)
     }
    
 }

@@ -17,3 +17,16 @@ struct Login {
         "\(name) \(lastName)"
     }
 }
+
+struct AboutUs {
+    var name: String
+    var lastName: String
+    var address: String
+    var email: String
+    var phone: String
+    
+    var fullName: String {
+        "\(name) \(lastName)"
+    }
+}
+

@@ -46,7 +46,6 @@
 		EFAC4CC2274189890068B3D9 = {
 			isa = PBXGroup;
 			children = (
-				EF9F3D7227457899005F7E8B /* Model.swift */,
 				EFAC4CCD274189890068B3D9 /* CarRental */,
 				EFAC4CCC274189890068B3D9 /* Products */,
 			);
@@ -120,6 +119,7 @@
 		EFAC4CE727418A240068B3D9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EF9F3D7227457899005F7E8B /* Model.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
