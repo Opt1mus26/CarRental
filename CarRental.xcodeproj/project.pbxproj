@@ -11,6 +11,7 @@
 		EAACDA0D2742E86600B55C3F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACDA0C2742E86600B55C3F /* DataManager.swift */; };
 		EAACDA0F2742E87800B55C3F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACDA0E2742E87700B55C3F /* Model.swift */; };
 		EAE6133B274BC7000089A790 /* CarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6133A274BC7000089A790 /* CarListViewController.swift */; };
+		EAE6133D274BCB470089A790 /* DetailCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6133C274BCB470089A790 /* DetailCarViewController.swift */; };
 		EFAC4CCF274189890068B3D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC4CCE274189890068B3D9 /* AppDelegate.swift */; };
 		EFAC4CD1274189890068B3D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC4CD0274189890068B3D9 /* SceneDelegate.swift */; };
 		EFAC4CD6274189890068B3D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAC4CD4274189890068B3D9 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		EAACDA0C2742E86600B55C3F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		EAACDA0E2742E87700B55C3F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		EAE6133A274BC7000089A790 /* CarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewController.swift; sourceTree = "<group>"; };
+		EAE6133C274BCB470089A790 /* DetailCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarViewController.swift; sourceTree = "<group>"; };
 		EFAC4CCB274189890068B3D9 /* CarRental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAC4CCE274189890068B3D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFAC4CD0274189890068B3D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				EAACDA0C2742E86600B55C3F /* DataManager.swift */,
 				EAACDA0E2742E87700B55C3F /* Model.swift */,
 				EFAC4CD4274189890068B3D9 /* Main.storyboard */,
+				EAE6133C274BCB470089A790 /* DetailCarViewController.swift */,
 				EAE6133A274BC7000089A790 /* CarListViewController.swift */,
 				EA0255ED274BC4390019ED6F /* FirstViewController.swift */,
 				EFAC4CD92741898A0068B3D9 /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 				EA0255EE274BC4390019ED6F /* FirstViewController.swift in Sources */,
 				EAE6133B274BC7000089A790 /* CarListViewController.swift in Sources */,
 				EFAC4CCF274189890068B3D9 /* AppDelegate.swift in Sources */,
+				EAE6133D274BCB470089A790 /* DetailCarViewController.swift in Sources */,
 				EAACDA0D2742E86600B55C3F /* DataManager.swift in Sources */,
 				EFAC4CD1274189890068B3D9 /* SceneDelegate.swift in Sources */,
 				EAACDA0F2742E87800B55C3F /* Model.swift in Sources */,

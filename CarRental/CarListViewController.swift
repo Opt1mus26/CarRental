@@ -39,10 +39,11 @@ class CarListViewController: UITableViewController {
    
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        guard let detailVC = segue.destination as? DetailCarViewController else { return }
+        guard let indexPath = tableView.indexPathForSelectedRow else { return }
+        let car = carList[indexPath.row]
+        detailVC.car = car
     }
   
 

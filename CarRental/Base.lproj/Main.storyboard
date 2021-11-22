@@ -131,10 +131,10 @@
             </objects>
             <point key="canvasLocation" x="1762" y="55"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail Car View Controller-->
         <scene sceneID="yeS-ha-b7K">
             <objects>
-                <viewController id="EFc-ZD-ZnR" sceneMemberID="viewController">
+                <viewController id="EFc-ZD-ZnR" customClass="DetailCarViewController" customModule="CarRental" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GJO-xe-qko">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -201,10 +201,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="Qe0-yU-2Xp"/>
                     <connections>
-                        <outlet property="ImageViewCar" destination="hwd-7r-Eca" id="1Sa-Mt-BOI"/>
-                        <outlet property="carNameLabel" destination="hdf-2z-I6W" id="FxX-xj-RrK"/>
-                        <outlet property="descriptionCar" destination="Tbh-gC-5co" id="ged-iX-6Py"/>
-                        <outlet property="priceCar" destination="NNe-tc-QyO" id="qbr-Xw-WYe"/>
+                        <outlet property="carDescriptionLabel" destination="Tbh-gC-5co" id="iSL-r6-bWo"/>
+                        <outlet property="carNameLabel" destination="hdf-2z-I6W" id="Jxv-mU-Fsg"/>
+                        <outlet property="carPriceLabel" destination="NNe-tc-QyO" id="DFt-KT-oj0"/>
+                        <outlet property="imageCar" destination="hwd-7r-Eca" id="azG-JT-m2e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mur-aX-hGE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
