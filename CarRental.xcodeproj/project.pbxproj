@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF664993274C38C9008AD5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		EF9A92472742EBEE0076B5C7 /* ReserveCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReserveCarViewController.swift; path = CarRental/ReserveCarViewController.swift; sourceTree = SOURCE_ROOT; };
 		EF9A92492742EC510076B5C7 /* GratitudeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GratitudeViewController.swift; path = CarRental/GratitudeViewController.swift; sourceTree = SOURCE_ROOT; };
 		EF9F3D7227457899005F7E8B /* ModelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTwo.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		EFAC4CD5274189890068B3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PTSmain.storyboard; sourceTree = "<group>"; };
 		EFAC4CD72741898A0068B3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFAC4CDA2741898A0068B3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EFAC4CDC2741898A0068B3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 				EFAC4CD92741898A0068B3D9 /* LaunchScreen.storyboard */,
 				EFAC4CCE274189890068B3D9 /* AppDelegate.swift */,
 				EFAC4CD0274189890068B3D9 /* SceneDelegate.swift */,
-				EFAC4CDC2741898A0068B3D9 /* Info.plist */,
+				EF664992274C38C6008AD5F8 /* Info.plist */,
 				EFAC4CD72741898A0068B3D9 /* Assets.xcassets */,
 			);
 			path = CarRental;
@@ -159,6 +159,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		EF664992274C38C6008AD5F8 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF664993274C38C9008AD5F8 /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
 		EFAC4CD4274189890068B3D9 /* PTSmain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
