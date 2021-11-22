@@ -85,7 +85,7 @@
         <!--Машины в наличии-->
         <scene sceneID="foV-8c-SEp">
             <objects>
-                <tableViewController id="gBZ-58-ufp" sceneMemberID="viewController">
+                <tableViewController id="gBZ-58-ufp" customClass="CarListViewController" customModule="CarRental" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="7cZ-Dt-XFD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

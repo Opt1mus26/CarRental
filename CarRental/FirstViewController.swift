@@ -19,4 +19,9 @@ class FirstViewController: UIViewController {
         headerImage.image = UIImage(named: "BMW X1")
         textLabel.text = "Позвольте найти для вас идеальный автомобиль. \n \n Подберем на любой вкус и кошелек, продолжительность проката от 1 часа до нескольких месяцев! \n \n Бронируйте прямо в приложении"
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let firstVC = segue.destination as? FirstViewController else { return }
+        firstVC.carsList = carsList
+    }
 }

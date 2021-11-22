@@ -29,7 +29,7 @@ extension Car {
         let transmissions = DataManager.shared.transmissions
         let engines = DataManager.shared.engines
         
-        for index in 0..<cars.count {
+        for index in 0...14 {
             let car = Car(name: names[index],
                           price: prices[index],
                           horsesPower: horsesPowers[index],
