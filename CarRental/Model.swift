@@ -6,7 +6,7 @@
 //
 
 struct Car {
-    let name: String
+    let carNames: String
     let price: String
     let horsesPower: String
     let driveUnits: String
@@ -14,7 +14,7 @@ struct Car {
     let engine: String
     
     var image: String {
-        "\(name)"
+        "\(carNames)"
     }
 }
 
@@ -22,7 +22,7 @@ extension Car {
     static func getCarList() -> [Car] {
         var cars: [Car] = []
         
-        let names = DataManager.shared.cars
+        let carNames = DataManager.shared.cars
         let prices = DataManager.shared.prices
         let horsesPowers = DataManager.shared.horsesPower
         let drivesUnits = DataManager.shared.driveUnits
@@ -30,7 +30,7 @@ extension Car {
         let engines = DataManager.shared.engines
         
         for index in 0...14 {
-            let car = Car(name: names[index],
+            let car = Car(carNames: carNames[index],
                           price: prices[index],
                           horsesPower: horsesPowers[index],
                           driveUnits: drivesUnits[index],

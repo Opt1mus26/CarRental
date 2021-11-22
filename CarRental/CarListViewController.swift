@@ -29,7 +29,6 @@ class CarListViewController: UITableViewController {
         searchController.searchBar.placeholder = "Поиск"
         navigationItem.searchController = searchController
         definesPresentationContext = true
-        
     }
 
     // MARK: - Table view data source
@@ -52,9 +51,9 @@ class CarListViewController: UITableViewController {
         }
         
         var content = cell.defaultContentConfiguration()
-        content.text = car.name
+        content.text = car.carNames
         content.secondaryText = " Цена \(car.price) в сутки"
-        content.image = UIImage(named: car.name)
+        content.image = UIImage(named: car.carNames)
         content.imageProperties.maximumSize = CGSize(width: 100, height: 100)
         
         cell.contentConfiguration = content     
@@ -85,7 +84,7 @@ extension CarListViewController: UISearchResultsUpdating {
     
     private func filterContentForSearchText(_ searchText: String) {
         filterCars = carList.filter({ (car: Car) -> Bool in
-            return car.name.lowercased().contains(searchText.lowercased())
+            return car.carNames.lowercased().contains(searchText.lowercased())
         })
         
         tableView.reloadData()
