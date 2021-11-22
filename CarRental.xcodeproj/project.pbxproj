@@ -14,7 +14,7 @@
 		EAE6133D274BCB470089A790 /* DetailCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6133C274BCB470089A790 /* DetailCarViewController.swift */; };
 		EFAC4CCF274189890068B3D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC4CCE274189890068B3D9 /* AppDelegate.swift */; };
 		EFAC4CD1274189890068B3D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC4CD0274189890068B3D9 /* SceneDelegate.swift */; };
-		EFAC4CD6274189890068B3D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAC4CD4274189890068B3D9 /* Main.storyboard */; };
+		EFAC4CD6274189890068B3D9 /* ATSmain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAC4CD4274189890068B3D9 /* ATSmain.storyboard */; };
 		EFAC4CD82741898A0068B3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAC4CD72741898A0068B3D9 /* Assets.xcassets */; };
 		EFAC4CDB2741898A0068B3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAC4CD92741898A0068B3D9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -28,7 +28,7 @@
 		EFAC4CCB274189890068B3D9 /* CarRental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAC4CCE274189890068B3D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFAC4CD0274189890068B3D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFAC4CD5274189890068B3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFAC4CD5274189890068B3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ATSmain.storyboard; sourceTree = "<group>"; };
 		EFAC4CD72741898A0068B3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFAC4CDA2741898A0068B3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFAC4CDC2741898A0068B3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 				EFAC4CD0274189890068B3D9 /* SceneDelegate.swift */,
 				EAACDA0C2742E86600B55C3F /* DataManager.swift */,
 				EAACDA0E2742E87700B55C3F /* Model.swift */,
-				EFAC4CD4274189890068B3D9 /* Main.storyboard */,
+				EFAC4CD4274189890068B3D9 /* ATSmain.storyboard */,
 				EAE6133C274BCB470089A790 /* DetailCarViewController.swift */,
 				EAE6133A274BC7000089A790 /* CarListViewController.swift */,
 				EA0255ED274BC4390019ED6F /* FirstViewController.swift */,
@@ -139,7 +139,7 @@
 			files = (
 				EFAC4CDB2741898A0068B3D9 /* LaunchScreen.storyboard in Resources */,
 				EFAC4CD82741898A0068B3D9 /* Assets.xcassets in Resources */,
-				EFAC4CD6274189890068B3D9 /* Main.storyboard in Resources */,
+				EFAC4CD6274189890068B3D9 /* ATSmain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,12 +163,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EFAC4CD4274189890068B3D9 /* Main.storyboard */ = {
+		EFAC4CD4274189890068B3D9 /* ATSmain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				EFAC4CD5274189890068B3D9 /* Base */,
 			);
-			name = Main.storyboard;
+			name = ATSmain.storyboard;
 			sourceTree = "<group>";
 		};
 		EFAC4CD92741898A0068B3D9 /* LaunchScreen.storyboard */ = {
@@ -311,7 +311,7 @@
 				INFOPLIST_FILE = CarRental/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ATSmain;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -341,7 +341,7 @@
 				INFOPLIST_FILE = CarRental/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ATSmain;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
