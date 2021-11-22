@@ -12,7 +12,6 @@
 		EAACDA0F2742E87800B55C3F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACDA0E2742E87700B55C3F /* Model.swift */; };
 		EAE6133B274BC7000089A790 /* CarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6133A274BC7000089A790 /* CarListViewController.swift */; };
 		EAE6133D274BCB470089A790 /* DetailCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6133C274BCB470089A790 /* DetailCarViewController.swift */; };
-		EAE6133F274C28240089A790 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFAC4CDC2741898A0068B3D9 /* Info.plist */; };
 		EFAC4CCF274189890068B3D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC4CCE274189890068B3D9 /* AppDelegate.swift */; };
 		EFAC4CD1274189890068B3D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC4CD0274189890068B3D9 /* SceneDelegate.swift */; };
 		EFAC4CD6274189890068B3D9 /* ATSmain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAC4CD4274189890068B3D9 /* ATSmain.storyboard */; };
@@ -138,7 +137,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAE6133F274C28240089A790 /* Info.plist in Resources */,
 				EFAC4CDB2741898A0068B3D9 /* LaunchScreen.storyboard in Resources */,
 				EFAC4CD82741898A0068B3D9 /* Assets.xcassets in Resources */,
 				EFAC4CD6274189890068B3D9 /* ATSmain.storyboard in Resources */,
