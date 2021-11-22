@@ -19,8 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF9A92472742EBEE0076B5C7 /* ReserveCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReserveCarViewController.swift; path = CarRental/StoryBoards/ReserveCarViewController.swift; sourceTree = SOURCE_ROOT; };
-		EF9A92492742EC510076B5C7 /* GratitudeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GratitudeViewController.swift; path = CarRental/StoryBoards/GratitudeViewController.swift; sourceTree = SOURCE_ROOT; };
+		EF9A92472742EBEE0076B5C7 /* ReserveCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReserveCarViewController.swift; path = CarRental/ReserveCarViewController.swift; sourceTree = SOURCE_ROOT; };
+		EF9A92492742EC510076B5C7 /* GratitudeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GratitudeViewController.swift; path = CarRental/GratitudeViewController.swift; sourceTree = SOURCE_ROOT; };
 		EF9F3D7227457899005F7E8B /* ModelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTwo.swift; sourceTree = "<group>"; };
 		EFAC4CCB274189890068B3D9 /* CarRental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAC4CCE274189890068B3D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,66 +62,18 @@
 		EFAC4CCD274189890068B3D9 /* CarRental */ = {
 			isa = PBXGroup;
 			children = (
-				EFAC4CE2274189DC0068B3D9 /* ViewControllers */,
-				EFAC4CE727418A240068B3D9 /* Models */,
-				EFAC4CE627418A170068B3D9 /* Servises */,
-				EFAC4CE3274189ED0068B3D9 /* StoryBoards */,
-				EFAC4CE427418A030068B3D9 /* App */,
-				EFAC4CE527418A0C0068B3D9 /* Resourses */,
-			);
-			path = CarRental;
-			sourceTree = "<group>";
-		};
-		EFAC4CE2274189DC0068B3D9 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
 				EF9A92472742EBEE0076B5C7 /* ReserveCarViewController.swift */,
 				EF9A92492742EC510076B5C7 /* GratitudeViewController.swift */,
 				EFAC4CD2274189890068B3D9 /* AboutUsViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		EFAC4CE3274189ED0068B3D9 /* StoryBoards */ = {
-			isa = PBXGroup;
-			children = (
+				EF9F3D7227457899005F7E8B /* ModelTwo.swift */,
 				EFAC4CD4274189890068B3D9 /* PTSmain.storyboard */,
 				EFAC4CD92741898A0068B3D9 /* LaunchScreen.storyboard */,
-			);
-			path = StoryBoards;
-			sourceTree = "<group>";
-		};
-		EFAC4CE427418A030068B3D9 /* App */ = {
-			isa = PBXGroup;
-			children = (
 				EFAC4CCE274189890068B3D9 /* AppDelegate.swift */,
 				EFAC4CD0274189890068B3D9 /* SceneDelegate.swift */,
 				EFAC4CDC2741898A0068B3D9 /* Info.plist */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		EFAC4CE527418A0C0068B3D9 /* Resourses */ = {
-			isa = PBXGroup;
-			children = (
 				EFAC4CD72741898A0068B3D9 /* Assets.xcassets */,
 			);
-			path = Resourses;
-			sourceTree = "<group>";
-		};
-		EFAC4CE627418A170068B3D9 /* Servises */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Servises;
-			sourceTree = "<group>";
-		};
-		EFAC4CE727418A240068B3D9 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				EF9F3D7227457899005F7E8B /* ModelTwo.swift */,
-			);
-			path = Models;
+			path = CarRental;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,7 +303,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24LMK5CXTP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CarRental/App/Info.plist;
+				INFOPLIST_FILE = CarRental/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = PTSmain;
@@ -379,7 +331,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24LMK5CXTP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CarRental/App/Info.plist;
+				INFOPLIST_FILE = CarRental/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = PTSmain;
