@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		EF9A92482742EBEE0076B5C7 /* ReserveCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9A92472742EBEE0076B5C7 /* ReserveCarViewController.swift */; };
 		EF9A924A2742EC510076B5C7 /* GratitudeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9A92492742EC510076B5C7 /* GratitudeViewController.swift */; };
-		EF9F3D732745789A005F7E8B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9F3D7227457899005F7E8B /* Model.swift */; };
+		EF9F3D732745789A005F7E8B /* ModelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9F3D7227457899005F7E8B /* ModelTwo.swift */; };
 		EFAC4CCF274189890068B3D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC4CCE274189890068B3D9 /* AppDelegate.swift */; };
 		EFAC4CD1274189890068B3D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC4CD0274189890068B3D9 /* SceneDelegate.swift */; };
 		EFAC4CD3274189890068B3D9 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC4CD2274189890068B3D9 /* AboutUsViewController.swift */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		EF9A92472742EBEE0076B5C7 /* ReserveCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReserveCarViewController.swift; path = CarRental/StoryBoards/ReserveCarViewController.swift; sourceTree = SOURCE_ROOT; };
 		EF9A92492742EC510076B5C7 /* GratitudeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GratitudeViewController.swift; path = CarRental/StoryBoards/GratitudeViewController.swift; sourceTree = SOURCE_ROOT; };
-		EF9F3D7227457899005F7E8B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EF9F3D7227457899005F7E8B /* ModelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTwo.swift; sourceTree = "<group>"; };
 		EFAC4CCB274189890068B3D9 /* CarRental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAC4CCE274189890068B3D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFAC4CD0274189890068B3D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		EFAC4CE727418A240068B3D9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				EF9F3D7227457899005F7E8B /* Model.swift */,
+				EF9F3D7227457899005F7E8B /* ModelTwo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 				EFAC4CD3274189890068B3D9 /* AboutUsViewController.swift in Sources */,
 				EFAC4CCF274189890068B3D9 /* AppDelegate.swift in Sources */,
 				EF9A92482742EBEE0076B5C7 /* ReserveCarViewController.swift in Sources */,
-				EF9F3D732745789A005F7E8B /* Model.swift in Sources */,
+				EF9F3D732745789A005F7E8B /* ModelTwo.swift in Sources */,
 				EFAC4CD1274189890068B3D9 /* SceneDelegate.swift in Sources */,
 				EF9A924A2742EC510076B5C7 /* GratitudeViewController.swift in Sources */,
 			);
