@@ -18,7 +18,11 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
+<<<<<<< HEAD:CarRental/Base.lproj/Info.plist
 					<string>PTSmain</string>
+=======
+					<string>ATSmain</string>
+>>>>>>> ATSBranch:CarRental/Info.plist
 				</dict>
 			</array>
 		</dict>
